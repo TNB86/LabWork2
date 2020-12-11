@@ -1,0 +1,8 @@
+﻿  my_dll.cpp
+d:\projects\lw2_1\my_dll\my_dll\my_dll.cpp(4): warning C4273: FuncName: несовместимая компоновка dll
+  d:\projects\lw2_1\my_dll\my_dll\my_dll.h(9): note: см. предыдущее определение "FuncName"
+d:\projects\lw2_1\my_dll\my_dll\my_dll.cpp(9): warning C4273: TheFunc: несовместимая компоновка dll
+  d:\projects\lw2_1\my_dll\my_dll\my_dll.h(11): note: см. предыдущее определение "TheFunc"
+d:\projects\lw2_1\my_dll\my_dll\my_dll.cpp(6): warning C4172: возвращение адреса локальной или временной переменной : func
+     ╤ючфрхЄё  сшсышюЄхър D:\Projects\lw2_1\my_dll\Debug\my_dll.lib ш юс·хъЄ D:\Projects\lw2_1\my_dll\Debug\my_dll.exp
+  my_dll.vcxproj -> D:\Projects\lw2_1\my_dll\Debug\my_dll.dll
