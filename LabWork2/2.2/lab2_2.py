@@ -60,7 +60,7 @@ def make_graph(x, y, marker):
     plt.show()
 
 
-root = r'Dlls\Plugins'
+root = r'..\Dlls\Plugins'
 dlls = ['Lib.dll',
         'Lib2-2-1.dll',
         'Lib2-2-2.dll',
