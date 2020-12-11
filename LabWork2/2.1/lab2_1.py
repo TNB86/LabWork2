@@ -21,7 +21,7 @@ def find():
     return _a, _b, _c
 
 
-lib_dll = ctypes.CDLL(r"D:\Download\Lab2.1\Lib2-1.dll")
+lib_dll = ctypes.CDLL(r".\Lib2-1.dll")
 lib_dll.TheFunc.argtypes = [ctypes.c_char_p, ctypes.c_double]
 lib_dll.TheFunc.restype = ctypes.c_double
 dots = []
