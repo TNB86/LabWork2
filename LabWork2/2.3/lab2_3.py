@@ -43,12 +43,12 @@ def data_graph(_item):
     func_name.restype = ctypes.c_char_p
     the_func.argtype = ctypes.c_double
     the_func.restype = ctypes.c_double
-    name = func_name().decode('ascii')
+    #name = func_name().decode('ascii')
     x, y = [], []
     for i in range(11):
         x.append(i)
         y.append(the_func(ctypes.c_double(i)))
-    make_graph(x, y, name)
+    make_graph(x, y, "name")
 
 
 def make_graph(x, y, marker):
@@ -56,7 +56,7 @@ def make_graph(x, y, marker):
     plt.plot(x, y)
     plt.xticks(x)
     plt.yticks(y)
-    plt.title(marker)
+    #plt.title(marker)
     plt.show()
 
 
